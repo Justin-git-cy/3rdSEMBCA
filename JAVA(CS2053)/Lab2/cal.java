@@ -9,7 +9,7 @@ class Calculator {
 
       public static void main(String[] arg) {
         Calculator calc = new Calculator();
-        system.out.println("Addition: " + calc.add(10,5));
-        system.out.println("Subtraction: " + calc.subtract(10,5));
+        System.out.println("Addition: " + calc.add(10,5));
+        System.out.println("Subtraction: " + calc.subtract(10,5));
       }
 }  
