@@ -4,16 +4,16 @@ public class Lab2_MusicPlaylist {
     public static void main(String[] args) {
         LinkedList<String> playlist = new LinkedList<>();
 
-        playlist.add("Song A");          
-        playlist.addFirst("Song B");     
-        playlist.addLast("Song C");
+        playlist.add("Caroline Creature - Saint Avangeline");          
+        playlist.addFirst("Sweet Carolina - Lana Del Rey");     
+        playlist.addLast("Not quite you - Artemas");
 
         System.out.println("Playlist: " + playlist);
 
         playlist.removeFirst();          
         playlist.removeLast();           
 
-        playlist.set(0, "Song D");       
+        playlist.set(0, "Dracula - Tame Impala");       
         System.out.println("Updated Playlist: " + playlist);
     }
 }
